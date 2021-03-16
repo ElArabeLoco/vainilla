@@ -1,5 +1,4 @@
 import router from './routes'
 
-console.log("Quiubo parce");
-
 window.addEventListener('load', router);
+window.addEventListener('hashchange', router)
